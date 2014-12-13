@@ -1,0 +1,14 @@
+Tareas pendientes...
+
+-------FALTA---------------
+
+responsive design
+Logo
+Instruccones
+
+-------CORREGIR------------
+
+Letras permanente
+desaperecer palabras ya mostradas
+
+---------------------------

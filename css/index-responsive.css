@@ -1,0 +1,17 @@
+@media (max-width: 520px){
+	body{
+		overflow-x: hidden;
+	}
+	#ahorcado{
+		width: 400px;
+	}
+}
+
+
+
+@media  (max-width: 480px){
+	#main{
+		overflow-x: hidden; 
+	}
+	
+}

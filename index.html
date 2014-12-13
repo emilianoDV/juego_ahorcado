@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>AHORCADO :: GAME</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/index-responsive.css">
+</head>
+<body>
+	<div id="main">
+		<div id="ahorcado">
+			<div id="dibujar">
+				<div id="horca">
+					<div class="no-visible" id="poste"></div>
+					<div class="no-visible" id="agarradera"></div>
+					<div class="no-visible" id="cuerda"></div>
+				</div>
+				<div id="humano">
+					<div class="no-visible" id="cabesa"></div>
+					<div class="no-visible" id="torso"></div>
+					<div class="no-visible" id="r_brazo"></div>
+					<div class="no-visible" id="l_brazo"></div>
+					<div class="no-visible" id="r_pierna"></div>
+					<div class="no-visible" id="l_pierna"></div>
+				</div>
+			</div>
+			<div id="suelo"></div>
+		</div>
+		<div id="space_write">
+			<ul id="list_write"></ul>
+		</div>
+		<div id="space_respuesta">
+			<div id="cont_txt">
+				<input id="respuesta" type="text"><input id="intentar" type="button" value="Buscar">
+			</div>
+			<div id="letters"><p></p></div>
+		</div>
+	</div>
+
+	<div id="msg_go"><p id="msg"></p></div>
+
+	<script src="js/game.js"></script>
+	<script src="js/palabras.js"></script>
+</body>
+</html>
